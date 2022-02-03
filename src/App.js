@@ -12,11 +12,11 @@ function App() {
       id="tsparticles"
       
       options={{
-        background: {
-          color: {
-            value: "#0d47a1",
-          },
-        },
+        // background: {
+        //   color: {
+        //     value: "#0d47a1",
+        //   },
+        // },
         fpsLimit: 120,
         interactivity: {
           events: {
@@ -48,10 +48,10 @@ function App() {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#f9ab00",
           },
           links: {
-            color: "#ffffff",
+            color: "#f9ab00",
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -65,7 +65,7 @@ function App() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 6,
+            speed: 2,
             straight: false,
           },
           number: {

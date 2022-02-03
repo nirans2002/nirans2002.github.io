@@ -3,7 +3,10 @@
   font-family: 'Nova Mono';
 }
 
-
+:root{
+  --primary-white:#fff;
+  --primary-orange:#f9ab00;
+}
 /* ***********FONTS********** */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 /* ********************* */
@@ -15,13 +18,17 @@ body{
 /* ********************* */
 
 /* *********  NAV  ************ */
-/* nav a.link{
-  color: #fff;
-  font-size: 1.5rem;
-  padding: 1rem;
-  display: inline-block;
-  transition: all 0.3s ease-in-out;
+
+/* .navbar-nav > li > a {
+  color: var(--primary-white)!important;
 } */
+
+nav-link{
+  font-weight: bold !important;
+}
+.active{
+  color: var(--primary-orange) !important;
+}
 /* ********************* */
 
 

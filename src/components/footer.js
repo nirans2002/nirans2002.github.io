@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {IoLogoLinkedin,IoLogoGithub,IoLogoTwitter,IoLogoInstagram} from 'react-icons/io';
 export const Footer = () => {
-    return <footer className="footer-dark  p-5">
+    return <footer className="footer-dark p-5">
     <div className="container">
         <div className="row">
             <div className="col-sm-6 col-md-3 item">
@@ -18,7 +18,7 @@ export const Footer = () => {
                <ul><a href="#"><IoLogoInstagram size="3em" color="grey"/></a></ul> 
             </div>
         </div>
-        <p className="copyright footerText p-4">Designed by <a href="" className="name p"> Niran S Narayanan</a></p>
+        
         
     </div>
 </footer>;

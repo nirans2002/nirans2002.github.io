@@ -56,11 +56,48 @@ tsparticles{
 
 .footer-dark{
   background-color: #272429 !important;
+  position: sticky !important;
+  bottom: 0 !important;
   
 }
 a.name{
   color: var(--primary-orange) !important;
   text-decoration: none !important;
 }
+a.email{
+  color: var(--primary-white) !important;
+  text-decoration: none !important;
+}
 
 /* ********************* */
+/* ********************* */
+.whiteText{
+  color: var(--primary-white) !important;
+}
+
+.orangeText{
+  color: var(--primary-orange) !important;
+  
+}
+/* ********************* */
+
+
+/* ********** CONTACT *********** */
+#contact{
+  background-color: #0e0114;
+  border-top: rgb(206, 134, 0) 0.5px solid;
+  margin-top: 5em !important;
+  
+}
+.contact-border{
+  border:#f9ab00 0.2em solid;
+  border-radius: 2em;
+}
+
+.submit_button{
+  background-color: #f9ab00!important;
+
+}
+/* ********************* */
+
+

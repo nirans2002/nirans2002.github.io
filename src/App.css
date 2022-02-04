@@ -49,5 +49,18 @@ tsparticles{
 /* ********************* */
 
 
-/* ********************* */
+/* *********FOOTER************ */
+.footerText{
+ color: white !important;
+}
+
+.footer-dark{
+  background-color: #272429 !important;
+  
+}
+a.name{
+  color: var(--primary-orange) !important;
+  text-decoration: none !important;
+}
+
 /* ********************* */

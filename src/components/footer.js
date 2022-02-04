@@ -18,7 +18,7 @@ export const Footer = () => {
                <ul><a href="#"><IoLogoInstagram size="3em" color="grey"/></a></ul> 
             </div>
         </div>
-        
+        <p className="copyright footerText p-4">Designed by <a href="" className="name p"> Niran S Narayanan</a></p>
         
     </div>
 </footer>;

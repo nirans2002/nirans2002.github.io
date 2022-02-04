@@ -5,6 +5,7 @@ import Header from './components/header';
 import Particle from './components/particles';
 import {Footer} from './components/footer';
 import Contact from './components/contact';
+import Projects from './components/projects';
 
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
       {/* <Particle /> */}
       <NavigationBar/>
       <Header/>
+      <Projects/>
       <Contact/>
       <Footer/>
-
     </div>
   );
 }

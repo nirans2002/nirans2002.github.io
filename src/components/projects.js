@@ -9,7 +9,7 @@ export default function Projects() {
     const renderCard = (card, index) => {
         return (
             <div className="p-4">
-                <Card style={{ width: '18rem'}} className="bg_dark">
+                <Card style={{ width: '18rem'}} className="bg_dark g-4">
                     <Card.Img variant="top" src={card.image} />
                     <Card.Body>
                         <Card.Title className="orangeText">Card Title</Card.Title>
@@ -31,10 +31,10 @@ export default function Projects() {
     };
 
     return (
-        <section id="projects" className="whiteText">
-           <div className="bg_dark p-2"> <h1 className="text-center orangeText fw-bolder p-2">Projects</h1>
+        <section id="projects" className="whiteText p-4">
+           <div className="bg_dark  "> <h1 className="text-center orangeText fw-bolder p-2">Projects</h1>
            </div>
-            <Row xs={1} md={3} className=" justify-content-between">
+            <Row xs={1} md={3} className=" justify-content-between ">
                 {projects.map(renderCard)}
             </Row>
         </section>

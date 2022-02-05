@@ -6,15 +6,15 @@ import Particle from './components/particles';
 import {Footer} from './components/footer';
 import Contact from './components/contact';
 import Projects from './components/projects';
-
+import About from './components/about';
 
 function App() {
   
   return (
     <div className="App">
-      <Particle />
+      {/* <Particle /> */}
       <NavigationBar/>
-      <Header/>
+      <About/>
       <Projects/>
       <Contact/>
       <Footer/>

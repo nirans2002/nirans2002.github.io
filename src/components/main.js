@@ -6,6 +6,7 @@ import Home from './home';
 import About from './about';
 import Skills from './skills';
 import Experience from './experience';
+import Testimonials from './testimonials';
 
 function Main() {
     return (
@@ -16,6 +17,7 @@ function Main() {
             <Skills/>
             <Experience/>
             <Projects />
+            {/* <Testimonials/> */}
             <Contact />
         </>
     );

@@ -103,7 +103,7 @@ a.email{
 
 /***************Section******************/
 section{
-  border-top: rgb(206, 134, 0) 0.2em solid ;
+  /* border-top: rgb(206, 134, 0) 0.2em solid ; */
   margin-top: 0.2em !important;
   padding: 5em !important;
 }

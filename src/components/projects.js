@@ -1,8 +1,7 @@
 
 import React from "react";
 import { projects } from '../data/data';
-import { BsCodeSlash } from 'react-icons/bs';
-import { Card, Col, Row,Button } from "react-bootstrap";
+import { Card,Row } from "react-bootstrap";
 import {IoLogoGithub, IoMdCodeWorking} from 'react-icons/io';
 
 export default function Projects() {

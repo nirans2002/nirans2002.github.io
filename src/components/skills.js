@@ -1,6 +1,5 @@
-import { SiFlutter } from "react-icons/si";
 import React from "react";
-import { Button, Card,Row } from "react-bootstrap";
+import { Card,Row } from "react-bootstrap";
 
 import { skills } from '../data/data';
 

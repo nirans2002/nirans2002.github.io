@@ -13,10 +13,9 @@ export default function Projects() {
                 <Card  className="bg_dark g-4 p-4 m-4 borderOrange">
                     <Card.Img variant="top" src={card.image} />
                     <Card.Body>
-                        <Card.Title className="orangeText">Card Title</Card.Title>
+                        <Card.Title className="orangeText">{card.title}</Card.Title>
                         <Card.Text className="text-grey">
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                        {card.description}
                         </Card.Text>
                         <div>
                             <span className="p-2"><a href={card.github_link}><IoLogoGithub size="2em" color="grey"/></a></span>

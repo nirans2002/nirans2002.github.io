@@ -1,6 +1,6 @@
 import { SiFlutter } from "react-icons/si";
 import React from "react";
-import { Card, Col, Row, Button } from "react-bootstrap";
+import { Button, Card,Row } from "react-bootstrap";
 
 import { skills } from '../data/data';
 
@@ -9,12 +9,12 @@ export default function Skills() {
     const skillCard = (card, index) => {
         return (
             <div className="p-4">
-                <Card style={{ width: '8em' }} className="bg_dark g-4 borderOrange">
+                <Card style={{ width: '8em' } } className="bg_dark g-4 borderOrange">
                     <div className="p-4">{card.icon}</div>
                     <Card.Body>
                         <Card.Title className="whiteText">{card.title}</Card.Title>
 
-                    </Card.Body>
+                    </Card.Body>                                                                                                            
 
                 </Card>
 

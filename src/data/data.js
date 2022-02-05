@@ -1,4 +1,5 @@
 import { SiFlutter,SiHtml5,SiCss3,SiPython,SiDart} from "react-icons/si";
+import { ImGithub,ImLinkedin,ImTwitter,ImFacebook} from "react-icons/im";
 
 /*--------------------SKILLS-----------------------*/
 
@@ -34,77 +35,23 @@ export const skills = [
 /*--------------------PROJECTS-----------------------*/
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Learn.edu",
+    subtitle: "static web landing page",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A static web landing page for a learning platform. The landing page is designed to be a simple and easy to use interface for users to learn about the platform and its features.", 
     image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
     github_link: "https://reactbootcamp.com",
     live_link: "/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    title: " Quiz App",
+    subtitle: "Quiz app using flutter",
+    description:"A quiz app using flutter. The quiz app is designed to be a simple and easy to use interface for users to test their knowledge in various fields. Made with quizapi.io", 
     image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
     github_link: "https://reactbootcamp.com",
     live_link: "/",
   },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
-    github_link: "https://reactbootcamp.com",
-    live_link: "/",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
-    github_link: "https://reactbootcamp.com",
-    live_link: "/",
-  },
-  {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
-    github_link: "https://reactbootcamp.com",
-    live_link: "/",
-  },
-  {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
-    github_link: "https://reactbootcamp.com",
-    live_link: "/",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
-    github_link: "https://reactbootcamp.com",
-    live_link: "/",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
-    github_link: "https://reactbootcamp.com",
-    live_link: "/",
-  },
+
   
 ];
 
@@ -135,7 +82,7 @@ export const data = {
 export const experience = [ 
   {
     id: 1,
-    title: "Frontend Developer",
+    title: "sample title",
     location: "Dragontail, Ascana",
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
@@ -145,7 +92,7 @@ export const experience = [
   },
   {
     id: 2,
-    title: "Backend Developer",
+    title: " sample",
     location: "Skystead, Craonia",
     description:
       "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
@@ -155,7 +102,7 @@ export const experience = [
   },
   {
     id: 3,
-    title: "Quality Assurance Engineer",
+    title: " sample",
     location: "South Warren, Geshington",
     description:
       "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
@@ -165,7 +112,7 @@ export const experience = [
   },
   {
     id: 4,
-    title: "Oak Ridge College",
+    title: "sample",
     location: "South Warren, Geshington",
     description:
       "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
@@ -185,5 +132,33 @@ export const testimonials =[
     quote:"quote",
     image:"image",
   },
+];
+/*-------------------------------------------*/
+
+
+/*----------------------SOCIAL---------------------*/
+export const social=[
+  {
+    title:"GitHub",
+    icon:<ImGithub color="orange" size="3em"/>,
+    link:"www.github.com/nirans2002",
+  },
+  {
+    title:"LinkedIn",
+    icon:<ImLinkedin color="orange" size="3em"/>,
+
+    link:"www.linkedin.com/in/niran-s-narayanan",
+  },
+  {
+    title:"Twitter",
+    icon:<ImTwitter color="orange" size="3em"/>,
+    link:"www.twitter.com",
+  },
+  {
+    title:"Facebook",
+    icon:<ImFacebook color="orange" size="3em"/>,
+    link:"www.facebook.com",
+  },
+  
 ];
 /*-------------------------------------------*/

@@ -27,7 +27,10 @@ export default function Contact() {
   
   return (
     <section id="contact" className=" whiteText p-4 mt-2">
+      <div className="bg_dark  "> <h1 className="text-center section_header orangeText fw-bolder p-2">Get in Touch With Me</h1></div>
+
       <div className="d-flex justify-content-around">
+
         <div className="p-2 col-example text-center">
           <h3 className="orangeText p-4">Address</h3>
           <p className="mt-1">

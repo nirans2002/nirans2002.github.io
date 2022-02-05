@@ -32,9 +32,9 @@ export default function Projects() {
 
     return (
         <section id="projects" className="whiteText p-4">
-           <div className="bg_dark  "> <h1 className="text-center orangeText fw-bolder p-2">Projects</h1>
+           <div className="bg_dark  "> <h1 className="text-center section_header orangeText fw-bolder p-2">Projects</h1>
            </div>
-            <Row xs={1} md={3} className=" justify-content-between ">
+            <Row xs={1} md={3} className=" justify-content-evenly ">
                 {projects.map(renderCard)}
             </Row>
         </section>

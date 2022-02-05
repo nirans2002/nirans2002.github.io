@@ -6,7 +6,7 @@ import Particle from './components/particles';
 import {Footer} from './components/footer';
 import Contact from './components/contact';
 import Projects from './components/projects';
-import About from './components/about';
+import Main from './components/main';
 
 function App() {
   
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       {/* <Particle /> */}
       <NavigationBar/>
-      <About/>
+      <Main/>
       <Projects/>
       <Contact/>
       <Footer/>

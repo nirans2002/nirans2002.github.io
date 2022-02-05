@@ -1,29 +1,60 @@
+import React from "react";
+import { Button } from "react-bootstrap";
+// import {Typing} from './components/typing';
+// import Typing from './components/typing';
+import ReactTypingEffect from 'react-typing-effect';
 
 
-import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
-import Navigation from './navBar';
-import Home from './home';
-import Footer from './footer';
+export default function Main() {
+    return (
+        <section id="about">
+            <div className="whiteText container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                        Hi, Niran S Narayanan
 
-function Main() {
-    return(
-        <Router>
-            <div >
-                <div >
-                    <Navigation/>
-                    <Routes>
-                        <Route exact path='/' component={Home} />
-                        {/* <Route path='/events' exact component={} /> */}
-                        {/*<Route path='/projects' exact component={Projects} />*/}
-                        {/* <Route path='/team' exact component={}/> */}
-                        {/* <Route path='/aboutus' exact component={} />  */}
-                        {/* <Route path='*' exact component={} /> */}
-                    </Routes>
+                    </h1>
+                    <div className="flex justify-center">
+                        <span><h1>I work on {Typing()}</h1></span>
+                    </div>
+                    <div className="flex justify-center">
+                        
+                       <Button variant="outline-warning" className="buttonMain"   href="#contact">
+                            Connect With Me
+                        
+                        </Button>
+                        <Button variant="outline-warning" className="buttonMain"  href="#projects"> 
+                            See My works
+                        </Button>
+                    </div>
                 </div>
-                <Footer/>
+                
             </div>
-        </Router>
-    )
+        </section>
+    );
 }
 
-export default Main;
+function Typing() {
+    return <ReactTypingEffect
+        text={["Flutter", "Web", "IoT", "Arduino", "React"]}
+        speed={100}
+        eraseSpeed={50}
+        typingDelay={1000}
+        eraseDelay={1000}
+        cursorRenderer={cursor => <h1>{cursor}</h1>}
+        displayTextRenderer={(text, i) => {
+            return (
+                <h1>
+                    {text.split('').map((char, i) => {
+                        const key = `${i}`;
+                        return (
+                            <span
+                                key={key}
+                                style={i % 2 === 0 ? { color: 'orange' } : {}}
+                            >{char}</span>
+                        );
+                    })}
+                </h1>
+            );
+        } } />;
+}

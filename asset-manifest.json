@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nirans2002.github.io/static/css/main.5c793a52.css",
-    "main.js": "/nirans2002.github.io/static/js/main.bf1a3a66.js",
-    "static/js/787.62a9eac6.chunk.js": "/nirans2002.github.io/static/js/787.62a9eac6.chunk.js",
-    "index.html": "/nirans2002.github.io/index.html",
-    "main.5c793a52.css.map": "/nirans2002.github.io/static/css/main.5c793a52.css.map",
-    "main.bf1a3a66.js.map": "/nirans2002.github.io/static/js/main.bf1a3a66.js.map",
-    "787.62a9eac6.chunk.js.map": "/nirans2002.github.io/static/js/787.62a9eac6.chunk.js.map"
+    "main.css": "./static/css/main.5c793a52.css",
+    "main.js": "./static/js/main.f6fd47a5.js",
+    "static/js/787.62a9eac6.chunk.js": "./static/js/787.62a9eac6.chunk.js",
+    "index.html": "./index.html",
+    "main.5c793a52.css.map": "./static/css/main.5c793a52.css.map",
+    "main.f6fd47a5.js.map": "./static/js/main.f6fd47a5.js.map",
+    "787.62a9eac6.chunk.js.map": "./static/js/787.62a9eac6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c793a52.css",
-    "static/js/main.bf1a3a66.js"
+    "static/js/main.f6fd47a5.js"
   ]
 }

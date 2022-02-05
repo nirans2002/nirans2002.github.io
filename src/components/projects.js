@@ -8,8 +8,9 @@ import {IoLogoGithub, IoMdCodeWorking} from 'react-icons/io';
 export default function Projects() {
     const renderCard = (card, index) => {
         return (
-            <div className="p-4">
-                <Card style={{ width: '18rem'}} className="bg_dark g-4">
+            <div className="p-4 items-center">
+                {/* <Card style={{ width: '18rem'}} className="bg_dark g-4"> */}
+                <Card  className="bg_dark g-4 p-4 m-4 borderOrange">
                     <Card.Img variant="top" src={card.image} />
                     <Card.Body>
                         <Card.Title className="orangeText">Card Title</Card.Title>
@@ -31,7 +32,7 @@ export default function Projects() {
     };
 
     return (
-        <section id="projects" className="whiteText p-4">
+        <section id="projects" className="whiteText p-4 items-center">
            <div className="bg_dark  "> <h1 className="text-center section_header orangeText fw-bolder p-2">Projects</h1>
            </div>
             <Row xs={1} md={3} className=" justify-content-evenly ">

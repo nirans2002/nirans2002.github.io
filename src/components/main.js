@@ -5,14 +5,16 @@ import Projects from './projects';
 import Home from './home';
 import About from './about';
 import Skills from './skills';
+import Experience from './experience';
 
 function Main() {
     return (
         <>
             {/* <Particle /> */}
             <Home />
-            {/* <About/> */}
+            <About/>
             <Skills/>
+            <Experience/>
             <Projects />
             <Contact />
         </>

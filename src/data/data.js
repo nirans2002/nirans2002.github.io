@@ -1,5 +1,7 @@
 import { SiFlutter,SiHtml5,SiCss3,SiPython,SiDart} from "react-icons/si";
 
+/*--------------------SKILLS-----------------------*/
+
 export const skills = [
   {
     title: "HTML",
@@ -27,7 +29,9 @@ export const skills = [
 
   }
 ];
+/*-------------------------------------------*/
 
+/*--------------------PROJECTS-----------------------*/
 export const projects = [
   {
     title: "React Reserve",
@@ -103,3 +107,30 @@ export const projects = [
   },
   
 ];
+
+/*-------------------------------------------*/
+
+/*--------------------DATA-----------------------*/
+export const data = {
+  name: "Niran S Narayanan",
+  profession: "Student",
+  college: "College of Engineering, Trivandrum, Kerala",
+  address: "Calicut, Kerala, India",
+  linkedin: "www.linkedin.com/in/niran-s-narayanan",
+  github: "www.github.com/nirans2002",
+  email: "nirans2002@gmail.com",
+  phone: "+918289831638",
+  website: "www.niransnarayanan.com",
+  medium: " ",
+  twitter: " ",
+  facebook: " ",
+  instagram: " ",
+  youtube: " ",
+  bio:<h4>Lorem ipsum dolor sit  <br/> amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?</h4> ,
+
+};
+/*-------------------------------------------*/
+
+/*-----------------------EXPERIENCE--------------*/
+
+/*-------------------------------------------*/

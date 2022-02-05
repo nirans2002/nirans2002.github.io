@@ -125,7 +125,12 @@ section{
   background-color: rgb(36, 35, 35) !important;
   
 }
+/* #project{
+
+} */
 /*************** ******************/
+
+/***************home ******************/
 
 .buttonMain:hover{
   background-color: #f9ab00 !important;
@@ -136,4 +141,13 @@ section{
   /* margin: 0.5em !important; */
   margin: 1em !important;
 }
+/*************** ******************/
+
+
+/***************skill card ******************/
+.borderOrange{
+  border-color: #f9ab00 !important;
+  border-radius: 0.5em !important;
+}
+/*************** ******************/
   

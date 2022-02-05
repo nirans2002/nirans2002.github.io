@@ -9,7 +9,7 @@ export default function Skills() {
     const skillCard = (card, index) => {
         return (
             <div className="p-4">
-                <Card style={{ width: '8em' }}className="bg_dark g-4">
+                <Card style={{ width: '8em' }}className="bg_dark g-4 borderOrange">
                 <div className="p-4">{card.icon}</div>
                     <Card.Body>
                         <Card.Title className="whiteText">{card.title}</Card.Title>
@@ -26,9 +26,11 @@ export default function Skills() {
   return (
     <section id="skills">
      <div className="bg_dark  "> <h1 className="text-center section_header orangeText fw-bolder p-2"> Skills &amp; Technologies</h1></div>
-     <Row xs={1} md={5} className=" justify-content-evenly ">
-                {skills.map(skillCard)}
-            </Row>
+     <div className="bg_dark  "> <h1 className="text-center section_header orangeText fw-bolder p-2">Experience</h1></div>
+     
     </section>
   );
 }
+{/* <Row xs={1} md={5} className=" justify-content-evenly ">
+                {skills.map(skillCard)}
+            </Row> */}

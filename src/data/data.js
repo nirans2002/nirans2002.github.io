@@ -33,21 +33,13 @@ export const skills = [
 
 /*--------------------PROJECTS-----------------------*/
 export const projects = [
-  {
-    title: "Learn.edu",
-    subtitle: "static web landing page",
-    description:
-      "A static web landing page for a learning platform. The landing page is designed to be a simple and easy to use interface for users to learn about the platform and its features.", 
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
-    github_link: "https://reactbootcamp.com",
-    live_link: "/",
-  },
+
   {
     title: " Quiz App",
     subtitle: "Quiz app using flutter",
     description:"A quiz app using flutter. The quiz app is designed to be a simple and easy to use interface for users to test their knowledge in various fields. Made with quizapi.io", 
     image: "https://user-images.githubusercontent.com/42601162/150957101-d6dedeb9-4409-4659-8ef2-09a890d4c05d.jpg",
-    github_link: "https://reactbootcamp.com",
+    github_link: "https://github.com/nirans2002/quiz_app",
     live_link: "/",
   },
   {
@@ -55,10 +47,27 @@ export const projects = [
     subtitle: "Chat App UI using flutter",
     description:"A chat app UI using flutter. The chat app UI is designed to be a simple and easy to use interface for users to chat with other users. Made with flutter.io",
     image: "https://user-images.githubusercontent.com/42601162/137598095-3731d2d8-370b-4087-98c3-4743d77cd6df.jpg",
-    github_link: "https://reactbootcamp.com",
+    github_link: "https://github.com/nirans2002/Chat-App",
     live_link: "/",
   },
-
+  {
+    title: "Learn.edu",
+    subtitle: "static web landing page",
+    description:
+      "A static web landing page for a learning platform. The landing page is designed to be a simple and easy to use interface for users to learn about the platform and its features.", 
+    image: "https://user-images.githubusercontent.com/42601162/152694984-62c1799b-f792-4f7f-a26f-14203fffd513.png",
+    github_link: " https://nirans2002.github.io/learn.edu/",
+    live_link: "/",
+  },
+  {
+    title: "Mern Stack Blog Project",
+    subtitle: "full stack MERN blog project",
+    description:
+      "A static web landing page for a learning platform. The landing page is designed to be a simple and easy to use interface for users to learn about the platform and its features.", 
+    image: "https://user-images.githubusercontent.com/42601162/152694984-62c1799b-f792-4f7f-a26f-14203fffd513.png",
+    github_link: " https://github.com/nirans2002/blog-mern",
+    live_link: "/",
+  },
   
 ];
 

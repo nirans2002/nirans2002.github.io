@@ -64,10 +64,10 @@ export const data = {
   college: "College of Engineering, Trivandrum, Kerala",
   address: "Calicut, Kerala, India",
   linkedin: "www.linkedin.com/in/niran-s-narayanan",
-  github: "www.github.com/nirans2002",
+  github: "https://www.github.com/nirans2002",
   email: "nirans2002@gmail.com",
   phone: "+918289831638",
-  website: "www.niransnarayanan.com",
+  website: "https://www.niransnarayanan.com",
   medium: " ",
   twitter: " ",
   facebook: " ",
@@ -141,23 +141,23 @@ export const social=[
   {
     title:"GitHub",
     icon:<ImGithub color="orange" size="3em"/>,
-    link:"www.github.com/nirans2002",
+    link:"https://www.github.com/nirans2002",
   },
   {
     title:"LinkedIn",
     icon:<ImLinkedin color="orange" size="3em"/>,
 
-    link:"www.linkedin.com/in/niran-s-narayanan",
+    link:"https://www.linkedin.com/in/niran-s-narayanan",
   },
   {
     title:"Twitter",
     icon:<ImTwitter color="orange" size="3em"/>,
-    link:"www.twitter.com",
+    link:"https://www.twitter.com",
   },
   {
     title:"Facebook",
     icon:<ImFacebook color="orange" size="3em"/>,
-    link:"www.facebook.com",
+    link:"https://www.facebook.com",
   },
   
 ];

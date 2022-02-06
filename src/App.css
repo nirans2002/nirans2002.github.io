@@ -106,9 +106,10 @@ section{
   /* border-top: rgb(206, 134, 0) 0.2em solid ; */
   margin-top: 0.2em !important;
   padding: 8em !important;
+  align-items: center;
 }
 #home{
-  padding: 18em !important;
+  /* padding: 18em !important; */
   height: 100vh;
   align-items: center;
 
@@ -151,3 +152,6 @@ section{
 }
 /*************** ******************/
   
+.profilelink{
+  text-decoration: none !important;
+}

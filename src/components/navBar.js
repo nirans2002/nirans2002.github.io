@@ -11,10 +11,11 @@ export const NavigationBar = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
-      <Nav.Link href="#home" className="navText" >Home</Nav.Link>
-      <Nav.Link href="#about"className="navText" >About Me</Nav.Link>
-      <Nav.Link href="#projects"className="navText" >Projects</Nav.Link>
-      <Nav.Link href="#contact" calssNam="navText"e>Contact</Nav.Link>
+      <Nav.Link href="/#home" className="navText" >Home</Nav.Link>
+      <Nav.Link href="/#about"className="navText" >About Me</Nav.Link>
+      <Nav.Link href="/#skills"className="navText" >Skills</Nav.Link>
+      <Nav.Link href="/#projects"className="navText" >Projects</Nav.Link>
+      <Nav.Link href="/#contact" className="navText"e>Contact</Nav.Link>
     </Nav>
     
   </Navbar.Collapse>

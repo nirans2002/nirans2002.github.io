@@ -27,7 +27,6 @@ export const skills = [
     title: "Flutter",
     icon:<SiFlutter color="orange" size="2em"/> ,
 
-
   }
 ];
 /*-------------------------------------------*/
@@ -47,7 +46,15 @@ export const projects = [
     title: " Quiz App",
     subtitle: "Quiz app using flutter",
     description:"A quiz app using flutter. The quiz app is designed to be a simple and easy to use interface for users to test their knowledge in various fields. Made with quizapi.io", 
-    image: "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
+    image: "https://user-images.githubusercontent.com/42601162/150957101-d6dedeb9-4409-4659-8ef2-09a890d4c05d.jpg",
+    github_link: "https://reactbootcamp.com",
+    live_link: "/",
+  },
+  {
+    title: " Chat App UI",
+    subtitle: "Chat App UI using flutter",
+    description:"A chat app UI using flutter. The chat app UI is designed to be a simple and easy to use interface for users to chat with other users. Made with flutter.io",
+    image: "https://user-images.githubusercontent.com/42601162/137598095-3731d2d8-370b-4087-98c3-4743d77cd6df.jpg",
     github_link: "https://reactbootcamp.com",
     live_link: "/",
   },
@@ -73,7 +80,10 @@ export const data = {
   facebook: " ",
   instagram: " ",
   youtube: " ",
-  bio:<h4>Lorem ipsum dolor sit  <br/> amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?</h4> ,
+  bio:<h4>Electrical Engineering Undergradute student at <span className="orangeText">College of Engineering Trivandrum</span>. <br/>
+  Flutter and Web developer.<br/>
+  Interested in IoT, Robotics, microcontrollers, Programming and designing, Machine learning and AI.
+  Equipped with basic knowledge and actively learning Python, C Programming, Dart, HTML, CSS. React, Arduino and Raspberry pi.</h4> ,
 
 };
 /*-------------------------------------------*/
@@ -82,42 +92,42 @@ export const data = {
 export const experience = [ 
   {
     id: 1,
-    title: "sample title",
-    location: "Dragontail, Ascana",
+    title: "Web Developer",
+    location: "AstroCET",
     description:
-      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-    buttonText: "View Frontend Projects",
-    date: "August 2016 - present",
+      "Member of the Web Dev team of AstroCET. Develop and maintain the official website of the Club",
+    buttonText: "Visit Website",
+    date: "December 2021 - present",
     icon: "work",
   },
   {
     id: 2,
-    title: " sample",
-    location: "Skystead, Craonia",
+    title: " Webmaster",
+    location: "The Institution of Engineering and Technology (IET)- On Campus CET",
     description:
-      "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-    buttonText: "View Backend Projects",
-    date: "June 2013 - August 2016",
+      "Maintain and develop the official website of the IET-On Campus CET",
+    buttonText: "Vist webpage",
+    date: "November 2021 - Present",
     icon: "work",
   },
   {
     id: 3,
-    title: " sample",
-    location: "South Warren, Geshington",
+    title: " EEE Representative of ISTE SC CET",
+    location: "ISTE SC CET",
     description:
-      "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-    buttonText: "Company Website",
-    date: "September 2011 - June 2013",
+      "Promote, organize and conduct different events and activities of the club",
+    buttonText: "visit Website",
+    date: "August 2021 - Present",
     icon: "work",
   },
   {
     id: 4,
-    title: "sample",
-    location: "South Warren, Geshington",
+    title: "Campus Ambassador",
+    location: "E-Cell, IIT Guwahati",
     description:
-      "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
+      "Promte events of E-CELL IIT Guwahati",
     buttonText: "Course Certificate",
-    date: "September 2011",
+    date: "November 2021 - January 2022",
     icon: "school",
   },
 ];

@@ -1,5 +1,6 @@
 
 import React from "react";
+import { data } from '../data/data';
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -34,14 +35,13 @@ export default function Contact() {
         <div className="p-2 col-example text-center">
           <h3 className="orangeText p-4">Address</h3>
           <p className="mt-1">
-            97 Warren St. <br />
-            New York, NY 10007
+            {data.address}
           </p>
           <h3 className="orangeText p-4">E-mail</h3>
-          <p><a href="" className="email"> Niran S Narayanan</a></p>
+          <p><a href="" className="email"> {data.email}</a></p>
           <h3 className="orangeText p-4">Phone</h3>
 
-          <p className="leading-relaxed">123-456-7890</p>
+          <p className="leading-relaxed">{data.phone}</p>
 
 
         </div>

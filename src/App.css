@@ -155,3 +155,7 @@ section{
 .profilelink{
   text-decoration: none !important;
 }
+
+.homediv{
+  padding-top: 10rem !important;
+}

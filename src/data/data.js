@@ -64,7 +64,7 @@ export const projects = [
     subtitle: "full stack MERN blog project",
     description:
       "A static web landing page for a learning platform. The landing page is designed to be a simple and easy to use interface for users to learn about the platform and its features.", 
-    image: "https://user-images.githubusercontent.com/42601162/152694984-62c1799b-f792-4f7f-a26f-14203fffd513.png",
+    image: "https://miro.medium.com/max/1400/0*GKIyAWHbKbANm7d9.png",
     github_link: " https://github.com/nirans2002/blog-mern",
     live_link: "/",
   },

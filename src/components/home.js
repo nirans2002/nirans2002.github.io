@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <section id="home">
             <div className="whiteText h-100 items-center">
-                <div className=" flex items-center text-center">
+                <div className=" flex items-center text-center homediv">
                     <h1 className=" mb-4 font-medium text-white">
                         Hi, I am <span className="font-bold ">Niran S Narayanan</span>
 

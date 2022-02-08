@@ -115,7 +115,7 @@ export const experience = [
     location: "The Institution of Engineering and Technology (IET)- On Campus CET",
     description:
       "Maintain and develop the official website of the IET-On Campus CET",
-    buttonText: "Vist webpage",
+    buttonText: "Visit webpage",
     date: "November 2021 - Present",
     icon: "work",
   },
@@ -134,7 +134,7 @@ export const experience = [
     title: "Campus Ambassador",
     location: "E-Cell, IIT Guwahati",
     description:
-      "Promte events of E-CELL IIT Guwahati",
+      "Promote events of E-CELL IIT Guwahati",
     buttonText: "Course Certificate",
     date: "November 2021 - January 2022",
     icon: "school",

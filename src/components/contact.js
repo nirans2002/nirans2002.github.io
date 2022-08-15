@@ -1,6 +1,7 @@
 
 import React from "react";
 import { data } from '../data/data';
+import ContactForm from './contactForm' 
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -48,7 +49,7 @@ export default function Contact() {
 
         <div className="p-2 col-example text-center contact-border">
           <h3 className="orangeText p-4">Contact Me</h3>
-          <div className="p-4">
+          {/* <div className="p-4">
             <form
               netlify
               name="contact"
@@ -87,7 +88,8 @@ export default function Contact() {
                 Submit
               </button>
             </form>
-          </div>
+          </div> */}
+          <ContactForm/>
         </div>
       </div>
 

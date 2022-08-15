@@ -56,8 +56,8 @@ export const projects = [
     description:
       "A static web landing page for a learning platform. The landing page is designed to be a simple and easy to use interface for users to learn about the platform and its features.", 
     image: "https://user-images.githubusercontent.com/42601162/152694984-62c1799b-f792-4f7f-a26f-14203fffd513.png",
-    github_link: " https://nirans2002.github.io/learn.edu/",
-    live_link: "/",
+    github_link: " https://github.com/nirans2002/learn.edu ",
+    live_link: " https://www.nirans2002.github.io/learn.edu ",
   },
   {
     title: "Mern Stack Blog Project",

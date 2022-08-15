@@ -82,7 +82,10 @@ a.email{
 }
 /* ********************* */
 
-
+.roundBorder{
+  /* border:#f9ab00 0.2em solid; */
+  border-radius: 2em;
+}
 /* ********** CONTACT *********** */
 #contact{
   background-color: #0e0114;

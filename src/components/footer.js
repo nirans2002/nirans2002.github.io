@@ -8,7 +8,8 @@ export const Footer = () => {
     <div className="container">
         <div className="row">
             <div className="col-sm-6 col-md-3 item">
-               <ul><a href={data.linkedin}><IoLogoLinkedin size="3em" color="grey"/></a></ul> 
+               <ul>
+                  <a href={data.linkedin}><IoLogoLinkedin size="3em" color="grey"/></a></ul> 
             </div>
             <div className="col-sm-6 col-md-3 item">
                <ul><a href={data.github}><IoLogoGithub size="3em" color="grey"/></a></ul> 

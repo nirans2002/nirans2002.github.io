@@ -33,7 +33,14 @@ export const skills = [
 
 /*--------------------PROJECTS-----------------------*/
 export const projects = [
-
+  {
+    title: "NodeMCU Rover Controller",
+    subtitle: "NodeMCU Rover Controller App using flutter",
+    description:"An Android application made with flutter for controlling the rover with nodeMCU web server.", 
+    image: "https://user-images.githubusercontent.com/42601162/185081420-4eb1b506-e09b-4025-8be9-7128151c1313.jpg",
+    github_link: "https://github.com/nirans2002/Node-MCU-Rover-Flutter.git",
+    live_link: "/",
+  },
   {
     title: " Quiz App",
     subtitle: "Quiz app using flutter",
